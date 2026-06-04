@@ -1,3 +1,4 @@
+shaders:true
 version:1343
 invertYMouse:false
 mouseSensitivity:0.5
@@ -25,7 +26,7 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:false
+fullscreen:true
 enableVsync:false
 useVbo:true
 hideServerAddress:false
@@ -93,7 +94,15 @@ key_Side Inventory Key:0
 key_Hub Expand Key:45
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
-key_keybind.baublesinventory:48
+key_keybind.baublesinventory:0
+key_Галактическая карта:49
+key_Открыть инвентарь космического корабля:33
+key_Переключить режим Очков с сенсорами:37
+key_Scene1 start/pause:79
+key_Scene2 start/pause:80
+key_Scene3 start/pause:81
+key_Scene reset:82
+key_Quest Log:38
 key_key.davincis.up:45
 key_key.davincis.down:44
 key_key.davincis.brake:0
@@ -101,8 +110,11 @@ key_key.davincis.align:13
 key_key.davincis.decompile:43
 key_key.davincis.shipinv:37
 key_key.fart.desc:34
+key_keybind.togglehelmet.name:33
+key_keybind.togglechest.name:34
+key_keybind.togglelegs.name:35
+key_keybind.toggleboots.name:36
 key_Gravi Fly Key:33
-key_keybind.hammercorerenderstack:77
 key_Fly:33
 key_Hover:35
 key_Suit Mode:0
@@ -111,9 +123,6 @@ key_pneumaticcraft.helmet.hack:35
 key_pneumaticcraft.helmet.debugging.drone:21
 key_pneumaticcraft.boots.kick:45:CONTROL
 key_pneumaticcraft.chestplate.launcher:0:CONTROL
-key_key.dankstorage.pickup:25
-key_key.dankstorage.void:24
-key_key.dankstorage.construction:23
 key_key.dismount:42
 key_key.narrator:48:CONTROL
 key_key.securitycraft.cameraZoomIn:13
@@ -121,23 +130,11 @@ key_key.securitycraft.cameraZoomOut:12
 key_key.securitycraft.cameraEmitRedstone:19
 key_key.securitycraft.cameraActivateNightVision:49
 key_key.securitycraft.setDefaultViewingDirection:22
-key_key.aether.accessory_menu:23
 key_key.toggle_focus.desc:15
 key_key.astikorcarts.desc:19
+key_bbw.key.mode:0
+key_bbw.key.fluidmode:33:ALT
 key_Options Gui:23
-key_key.jei.toggleOverlay:24:CONTROL
-key_key.jei.focusSearch:33:CONTROL
-key_key.jei.toggleCheatMode:0
-key_key.jei.toggleEditMode:0
-key_key.jei.showRecipe:19
-key_key.jei.showUses:22
-key_key.jei.recipeBack:14
-key_key.jei.previousPage:201
-key_key.jei.nextPage:209
-key_key.jei.bookmark:30
-key_key.jei.toggleBookmarkOverlay:0
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
 key_Снять:44
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
@@ -154,6 +151,17 @@ key_key.enderlaunch.desc:-100
 key_key.rocket.desc:-100
 key_key.slide.desc:42
 key_invtweaks.key.sort:19
+key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.focusSearch:33:CONTROL
+key_key.jei.toggleCheatMode:0
+key_key.jei.toggleEditMode:0
+key_key.jei.showRecipe:19
+key_key.jei.showUses:22
+key_key.jei.recipeBack:14
+key_key.jei.previousPage:201
+key_key.jei.nextPage:209
+key_key.jei.bookmark:30
+key_key.jei.toggleBookmarkOverlay:0
 key_Open Journey Stats:25
 key_key.planarartifice.openThaumonomicon:25
 key_key.mcreator.tc_tcore_key:35
@@ -187,7 +195,7 @@ key_gui.xaero_alternative_list_players:0
 key_gui.xaero_toggle_tracked_players_on_map:0
 key_gui.xaero_toggle_tracked_players_in_world:0
 key_key.carbon_config.key:82
-soundCategory_master:0.5264901
+soundCategory_master:0.31456953
 soundCategory_music:0.028169014
 soundCategory_record:1.0
 soundCategory_weather:1.0
